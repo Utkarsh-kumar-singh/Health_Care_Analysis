@@ -1,12 +1,6 @@
-# Health_Care_Analysis
-
 # Health Care Analysis
 
 Health Care Data Analysis involves the application of data analysis techniques and machine learning algorithms to healthcare datasets in order to gain insights, make predictions, and inform decision-making in the field of healthcare. In the context of the provided dataset, the focus was on analyzing the relationship between various independent variables and the dependent variable of patient mortality (death_yn_n).
-
-
-
-
 
 ## Acknowledgements
 
@@ -21,7 +15,6 @@ Furthermore, I would like to acknowledge the contributions of the healthcare pro
 Lastly, I would like to express my appreciation to the open-source community for developing and maintaining the libraries, frameworks, and tools used in this project, such as pandas, scikit-learn, and matplotlib. Their dedication and commitment to open-source software have significantly contributed to the advancement of data analysis techniques in the healthcare field.
 
 Once again, I extend my heartfelt thanks to everyone who has played a role in this project. Your contributions and support have been invaluable, and I am grateful for the opportunity to work on this Health Care Data Analysis project.
-
 
 ## Appendix A: Dataset Description
 The dataset used in this Health Care Data Analysis project contains information related to healthcare records. It includes the following columns:
@@ -45,8 +38,7 @@ To assess the performance of the predictive models, accuracy was used as the pri
 ## Appendix E: Conclusion and Recommendations
 Based on the analysis conducted, it was concluded that the developed models showed promise in predicting patient mortality using the selected independent variables. However, further analysis, validation, and consideration of additional factors were recommended to enhance the accuracy and reliability of the models. It was also suggested to explore other evaluation metrics and perform further research to gain deeper insights into the relationships between the variables.
 
-
-## Conclsion ___ ----
+## Conclsion
 
 Based on the analysis conducted on the health care dataset, the following conclusions can be made:
 
@@ -58,8 +50,26 @@ This accuracy score indicates that the model has a reasonably good performance i
 
 It is worth noting that the accuracy achieved is specific to the given dataset and the chosen independent variables. Further analysis and evaluation, including feature engineering, model tuning, and cross-validation, may be necessary to improve the model's accuracy and ensure its robustness.
 
-
-
 ## Authors
 
 - [github profile](https://github.com/Utkarsh-kumar-singh/Health_Care_Analysis.git)
+
+## Features
+
+The features of the above code that can be mentioned in the Readme.md file on GitHub are as follows:
+
+Model Evaluation: The code provides a class, ModelEvaluator, which allows for the evaluation of multiple classification models.
+
+Supported Models: The code supports three classification models: Decision Tree, Logistic Regression, and Random Forest.
+
+Performance Metrics: The code calculates various performance metrics for each model, including Accuracy Score, Precision Score, Recall Score, and F1 Score.
+
+Multiclass Handling: The code addresses the issue of multiclass classification by setting the average parameter to 'macro' for precision, recall, and F1 score calculations.
+
+Exception Handling: The code implements exception handling to catch any errors that may occur during model evaluation.
+
+Input Data: The code requires the input data to be split into training and testing sets (X_train, y_train, X_test, y_test).
+
+Output: The code prints the performance metrics for each model, allowing for easy interpretation and comparison of model results.
+
+These features demonstrate the capability of the code to evaluate multiple classification models and provide performance metrics for decision-making in health care data analysis.
